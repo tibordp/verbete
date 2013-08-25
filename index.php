@@ -58,14 +58,20 @@ require_once('./include/lists.inc.php');
             <div class="jumbotron">
                 <h1 class="text-logofont">Verbête</h1>
                 <p>Voulez-vous voir la conjugaison d'un verbe? Allez-y, essayez:</p>
-                <form role="form" action="conjugaison.php" method="get">
 
-                    <input type="text" class="typeahead form-control" name="verbe" id="verbeInput" placeholder="Verbe">
-                    <button type="submit" class="btn btn-default">Conjuger</button>
+                <div class="fix_line_height">
+                    <form class="form-inline" role="form" action="conjugaison.php" method="get">
+                        <div class="input-group">
+                            <input type="text" class="form-control" name="verbe" id="verbeInput" placeholder="Verbe">
+                            <span class="input-group-btn">
+                                <button type="submit" class="btn btn-default">Conjuger</button>
+                            </span>
+                        </div>                 
+                    </form>
+                </div>
 
-
-                </form>
             </div>
+
             <div class="row">
                 <div class="col-md-8">
                     <div class="panel panel-default">

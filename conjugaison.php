@@ -9,11 +9,12 @@ if (empty($request_verb)) {
     die();
 }
 
-
 class States {
+
     const NON_EXISTANT = 0;
     const AD_HOC = 1;
     const EXISTANT = 2;
+
 }
 
 $verb_conjugator = new VerbConjugator(true);
@@ -23,10 +24,11 @@ if ($data = $verb_conjugator->GetVerbAttributes($request_verb)) { // Le verbe ex
     $state = States::EXISTANT;
 } else {
     foreach (VerbLists::$AdHoc as $ad_hoc_model) {
-        if (preg_match("/^(.*){$ad_hoc_model['suffix']}$/", $request_verb, $matches)) {
+        if (preg_match("/^(.*){$ad_hoc_model['suffix']}$/", $request_verb)) {
             $data = $verb_conjugator->GetVerbAttributes($ad_hoc_model['template']);
             $model = $ad_hoc_model['template'];
-            $radix = $matches[1];
+            $radix = substr($request_verb, 0, 1 + strlen($request_verb) - (strlen($data['name']) -
+                    strpos($data['name'], ':')));
             break;
         }
     }
@@ -70,7 +72,6 @@ function FormatVerb($verb_description) {
         }
 
         $text .= isset($value[2]) ? "{$value[0]}" : "{$value[0]} ";
-        
     }
     $text .= "</td></tr>";
 
@@ -99,7 +100,6 @@ function output_table($tense, $tense_name, $style = 'panel-info', $num = 3, $row
     echo "</div>";
     echo "</div>";
 }
-
 ?><!DOCTYPE html>
 <html lang="fr">
     <head>
@@ -162,13 +162,13 @@ function output_table($tense, $tense_name, $style = 'panel-info', $num = 3, $row
 
             <div class="panel panel-default">
                 <div class="panel-body">
-                    <form class="form-inline" role="form" action="conjugaison.php" method="get">
-                        <div class="form-group">
-                            <label class="sr-only" for="verbeInput">Verbe</label>
+                    <form class="form" role="form" action="conjugaison.php" method="get">
+                        <div class="input-group">
                             <input type="text" class="form-control" name="verbe" id="verbeInput" placeholder="Verbe">
-
-                        </div>
-                        <button type="submit" class="btn btn-default">Conjuger</button>                     
+                            <span class="input-group-btn">
+                                <button type="submit" class="btn btn-default">Conjuger</button>
+                            </span>
+                        </div>                 
                     </form>
                 </div>
             </div>

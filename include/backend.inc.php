@@ -9,6 +9,7 @@ $db_connection = new PDO($conn_string, MYSQL_USERNAME, MYSQL_PASSWORD, array(PDO
 define('COMPOSED_MASK', 7);
 
 class Tense {
+
     const PRESENT_SIMPLE = 1;
     const IMPARFAIT = 2;
     const FUTUR_SIMPLE = 3;
@@ -64,7 +65,7 @@ class VerbConjugator {
         return in_array($verb, VerbLists::$VerbesEtre);
     }
 
-    private function GetMainVerbSuffix($verb_data, $tense) { 
+    private function GetMainVerbSuffix($verb_data, $tense) {
         switch ($tense) {
             case Tense::PRESENT_SIMPLE:
             case Tense::PASSE_COMPOSE: return $verb_data['indicative']['present'];
@@ -88,9 +89,9 @@ class VerbConjugator {
             $vowels = Array('a', 'e', 'i', 'o', 'u', 'é');
         else
             $vowels = Array('a', 'e', 'i', 'o', 'u', 'é', 'h');
-        
+
         foreach ($vowels as $vowel)
-            // Because of UTF-8
+        // Because of UTF-8
             if (strncmp($vowel, $string, strlen($vowel)) == 0)
                 return true;
         return false;
@@ -98,7 +99,7 @@ class VerbConjugator {
 
     private function ContractVowels(&$conjugated_verb, $aspirated_h) {
         $length = count($conjugated_verb);
-        
+
         global $contractions;
         for ($i = 0; $i < $length - 2; $i++) {
             $j = 1;
@@ -125,7 +126,7 @@ class VerbConjugator {
         }
     }
 
-    public function GetVerbAttributes($verb, $template = '') {
+    public function GetVerbAttributes($verb) {
         // First we check if this verb is already among the commonly used verbs in $this->AuxilliaryVerbs
         global $db_connection;
 
@@ -133,25 +134,14 @@ class VerbConjugator {
             if ($aux_verb == $verb)
                 return $verb_data;
 
-        if (empty($template)) {
-            $query = "SELECT verbs.verb,aspirate_h,reflexive,templates.* " .
-                    "FROM verbs, templates " .
-                    "WHERE verbs.verb LIKE ? AND BINARY templates.name = verbs.template";
-            $stmt = $db_connection->prepare($query);
+        $query = "SELECT verbs.verb,aspirate_h,reflexive,templates.* " .
+                "FROM verbs, templates " .
+                "WHERE verbs.verb LIKE ? AND BINARY templates.name = verbs.template";
+        $stmt = $db_connection->prepare($query);
 
-            if (!$stmt->execute(array($verb)))
-                return NULL;
-        }
-        else {
-            $query = "SELECT verbs.verb,aspirate_h,reflexive,templates.* " .
-                    "FROM verbs, templates " .
-                    "WHERE verbs.verb LIKE ? AND templates.name = ?";
+        if (!$stmt->execute(array($verb)))
+            return NULL;
 
-            $stmt = $db_connection->prepare($query);
-
-            if (!$stmt->execute(array($verb, $template)))
-                return NULL;
-        }
 
         $verb_data = Array();
 
@@ -176,7 +166,6 @@ class VerbConjugator {
         $verb_data = Array(// Just to get the most importan attributes to the beginning
             'prefix' => substr($verb_data['verb'], 0, 1 + strlen($verb_data['verb']) - (strlen($verb_data['name']) -
                     strpos($verb_data['name'], ':')))) + $verb_data;
-        unset($verb_data['name']);
 
         return $verb_data;
     }
