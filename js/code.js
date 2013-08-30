@@ -1,7 +1,7 @@
 $('#verbeInput').typeahead({
     name: 'verbs',
-    prefetch: 'data/verbes.json',
-    remote: 'data/verbes.json?q=%QUERY',
+    prefetch: 'data/verbes.php',
+    remote: 'data/verbes.php?q=%QUERY',
     limit: 10
 });
 
