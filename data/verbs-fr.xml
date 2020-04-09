@@ -2,7 +2,7 @@
 
 <!--
 	verbs-fr.xml - List of French verbs with their conjugation template
-	Copyright (C) 2003-2013 Pierre Sarrazin <http://sarrazip.com/>
+	Copyright (C) 2003-2016 Pierre Sarrazin <http://sarrazip.com/>
 
 	This program is free software; you can redistribute it and/or
 	modify it under the terms of the GNU General Public License
@@ -63,6 +63,7 @@
 <v><i>abraser</i>		<t>aim:er</t></v>
 <v><i>abréger</i>		<t>abr:éger</t></v>
 <v><i>abreuver</i>		<t>aim:er</t></v>
+<v><i>abrévier</i>		<t>aim:er</t></v>
 <v><i>abricoter</i>		<t>aim:er</t></v>
 <v><i>abrier</i>		<t>aim:er</t></v>
 <v><i>abriter</i>		<t>aim:er</t></v>
@@ -105,7 +106,7 @@
 <v><i>accréditer</i>		<t>aim:er</t></v>
 <v><i>accréter</i>		<t>décr:éter</t></v>
 <v><i>accrocher</i>		<t>aim:er</t></v>
-<v><i>accroître</i>		<t>cr:oître</t></v>
+<v><i>accroître</i>		<t>accr:oître</t></v>
 <v><i>accroupir</i>		<t>fin:ir</t></v>
 <v><i>accueillir</i>		<t>cueill:ir</t></v>
 <v><i>acculer</i>		<t>aim:er</t></v>
@@ -851,7 +852,7 @@
 <v><i>bruisser</i>		<t>aim:er</t></v>
 <v><i>bruiter</i>		<t>aim:er</t></v>
 <v><i>brûler</i>		<t>aim:er</t></v>
-<v><i>brumasser</i>		<t>aim:er</t></v>
+<v><i>brumasser</i>		<t>brumass:er</t></v>
 <v><i>brumer</i>		<t>aim:er</t></v>
 <v><i>bruncher</i>		<t>aim:er</t></v>
 <v><i>brunir</i>		<t>fin:ir</t></v>
@@ -1412,7 +1413,7 @@
 <v><i>contre-buter</i>		<t>aim:er</t></v>
 <v><i>contrebuter</i>		<t>aim:er</t></v>
 <v><i>contrecarrer</i>		<t>aim:er</t></v>
-<v><i>contredire</i>		<t>méd:ire</t></v>
+<v><i>contredire</i>		<t>préd:ire</t></v>
 <v><i>contrefaire</i>		<t>f:aire</t></v>
 <v><i>contreficher</i>		<t>aim:er</t></v>
 <v><i>contrefoutre</i>		<t>fou:tre</t></v>
@@ -1831,7 +1832,7 @@
 <v><i>décrisper</i>		<t>aim:er</t></v>
 <v><i>décrocher</i>		<t>aim:er</t></v>
 <v><i>décroiser</i>		<t>aim:er</t></v>
-<v><i>décroître</i>		<t>cr:oître</t></v>
+<v><i>décroître</i>		<t>accr:oître</t></v>
 <v><i>décrotter</i>		<t>aim:er</t></v>
 <v><i>décroûter</i>		<t>aim:er</t></v>
 <v><i>décruer</i>		<t>aim:er</t></v>
@@ -1847,7 +1848,7 @@
 <v><i>dédicacer</i>		<t>pla:cer</t></v>
 <v><i>dédier</i>		<t>aim:er</t></v>
 <v><i>dédifférencier</i>	<t>aim:er</t></v>
-<v><i>dédire</i>		<t>d:ire</t></v>
+<v><i>dédire</i>		<t>préd:ire</t></v>
 <v><i>dédommager</i>		<t>man:ger</t></v>
 <v><i>dédorer</i>		<t>aim:er</t></v>
 <v><i>dédouaner</i>		<t>aim:er</t></v>
@@ -5147,7 +5148,7 @@
 <v><i>prédestiner</i>		<t>aim:er</t></v>
 <v><i>prédéterminer</i>		<t>aim:er</t></v>
 <v><i>prédiquer</i>		<t>aim:er</t></v>
-<v><i>prédire</i>		<t>d:ire</t></v>
+<v><i>prédire</i>		<t>préd:ire</t></v>
 <v><i>prédisposer</i>		<t>aim:er</t></v>
 <v><i>prédominer</i>		<t>aim:er</t></v>
 <v><i>préempter</i>		<t>aim:er</t></v>
@@ -5562,6 +5563,7 @@
 <v><i>récriminer</i>		<t>aim:er</t></v>
 <v><i>récrire</i>		<t>écri:re</t></v>
 <v><i>recristalliser</i>	<t>aim:er</t></v>
+<v><i>recroître</i>		<t>recr:oître</t></v>
 <v><i>recroqueviller</i>	<t>aim:er</t></v>
 <v><i>recruter</i>		<t>aim:er</t></v>
 <v><i>rectifier</i>		<t>aim:er</t></v>
@@ -5620,7 +5622,7 @@
 <v><i>refaçonner</i>		<t>aim:er</t></v>
 <v><i>refendre</i>		<t>ten:dre</t></v>
 <v><i>référencer</i>		<t>pla:cer</t></v>
-<v><i>référencier</i>		<t>référenci:er</t></v>
+<v><i>référencier</i>		<t>aim:er</t></v>
 <v><i>référer</i>		<t>réf:érer</t></v>
 <v><i>refermer</i>		<t>aim:er</t></v>
 <v><i>refiler</i>		<t>aim:er</t></v>
@@ -6163,7 +6165,6 @@
 <v><i>satiner</i>		<t>aim:er</t></v>
 <v><i>satiriser</i>		<t>aim:er</t></v>
 <v><i>satisfaire</i>		<t>f:aire</t></v>
-<v><i>satisfer</i>		<t>aim:er</t></v>
 <v><i>satonner</i>		<t>aim:er</t></v>
 <v><i>saturer</i>		<t>aim:er</t></v>
 <v><i>saucer</i>		<t>pla:cer</t></v>
@@ -6239,7 +6240,7 @@
 <v><i>sertir</i>		<t>fin:ir</t></v>
 <v><i>servir</i>		<t>ser:vir</t></v>
 <v><i>sévir</i>			<t>fin:ir</t></v>
-<v><i>sevrer</i>		<t>aim:er</t></v>
+<v><i>sevrer</i>		<t>s:evrer</t></v>
 <v><i>sextupler</i>		<t>aim:er</t></v>
 <v><i>sexualiser</i>		<t>aim:er</t></v>
 <v><i>shampooingner</i>		<t>aim:er</t></v>

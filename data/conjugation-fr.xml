@@ -2,7 +2,7 @@
 
 <!--
 	conjugation-fr.xml - French conjugation templates
-	Copyright (C) 2003-2013 Pierre Sarrazin <http://sarrazip.com/>
+	Copyright (C) 2003-2016 Pierre Sarrazin <http://sarrazip.com/>
 
 	This program is free software; you can redistribute it and/or
 	modify it under the terms of the GNU General Public License
@@ -131,94 +131,6 @@
 			<p><i>cés</i></p>
 			<p><i>cée</i></p>
 			<p><i>cées</i></p>
-		</past-participle>
-	</participle>
-</template>
-
-<template name="référenci:er">
-	<infinitive>
-		<infinitive-present>
-			<p><i>er</i></p>
-		</infinitive-present>
-	</infinitive>
-	<indicative>
-		<present>
-			<p><i>e</i></p>
-			<p><i>es</i></p>
-			<p><i>e</i></p>
-			<p><i>ons</i></p>
-			<p><i>ez</i></p>
-			<p><i>ent</i></p>
-		</present>
-		<imperfect>
-			<p><i>ais</i></p>
-			<p><i>ais</i></p>
-			<p><i>ait</i></p>
-			<p><i>ons</i></p>
-			<p><i>ez</i></p>
-			<p><i>aient</i></p>
-		</imperfect>
-		<future>
-			<p><i>erai</i></p>
-			<p><i>eras</i></p>
-			<p><i>era</i></p>
-			<p><i>erons</i></p>
-			<p><i>erez</i></p>
-			<p><i>eront</i></p>
-		</future>
-		<simple-past>
-			<p><i>ai</i></p>
-			<p><i>as</i></p>
-			<p><i>a</i></p>
-			<p><i>âmes</i></p>
-			<p><i>âtes</i></p>
-			<p><i>èrent</i></p>
-		</simple-past>
-	</indicative>
-	<conditional>
-		<present>
-			<p><i>erais</i></p>
-			<p><i>erais</i></p>
-			<p><i>erait</i></p>
-			<p><i>erions</i></p>
-			<p><i>eriez</i></p>
-			<p><i>eraient</i></p>
-		</present>
-	</conditional>
-	<subjunctive>
-		<present>
-			<p><i>e</i></p>
-			<p><i>es</i></p>
-			<p><i>e</i></p>
-			<p><i>ions</i></p>
-			<p><i>iez</i></p>
-			<p><i>ent</i></p>
-		</present>
-		<imperfect>
-			<p><i>asse</i></p>
-			<p><i>asses</i></p>
-			<p><i>ât</i></p>
-			<p><i>assions</i></p>
-			<p><i>assiez</i></p>
-			<p><i>assent</i></p>
-		</imperfect>
-	</subjunctive>
-	<imperative>
-		<imperative-present>
-			<p><i>e</i></p>
-			<p><i>ons</i></p>
-			<p><i>ez</i></p>
-		</imperative-present>
-	</imperative>
-	<participle>
-		<present-participle>
-			<p><i>ant</i></p>
-		</present-participle>
-		<past-participle>
-			<p><i>é</i></p>
-			<p><i>és</i></p>
-			<p><i>ée</i></p>
-			<p><i>ées</i></p>
 		</past-participle>
 	</participle>
 </template>
@@ -2599,6 +2511,94 @@
 	</participle>
 </template>
 
+<template name="s:evrer">
+	<infinitive>
+		<infinitive-present>
+			<p><i>evrer</i></p>
+		</infinitive-present>
+	</infinitive>
+	<indicative>
+		<present>
+			<p><i>èvre</i></p>
+			<p><i>èvres</i></p>
+			<p><i>èvre</i></p>
+			<p><i>evrons</i></p>
+			<p><i>evrez</i></p>
+			<p><i>èvrent</i></p>
+		</present>
+		<imperfect>
+			<p><i>evrais</i></p>
+			<p><i>evrais</i></p>
+			<p><i>evrait</i></p>
+			<p><i>evrions</i></p>
+			<p><i>evriez</i></p>
+			<p><i>evraient</i></p>
+		</imperfect>
+		<future>
+			<p><i>èvrerai</i></p>
+			<p><i>èvreras</i></p>
+			<p><i>èvrera</i></p>
+			<p><i>èvrerons</i></p>
+			<p><i>èvrerez</i></p>
+			<p><i>èvreront</i></p>
+		</future>
+		<simple-past>
+			<p><i>evrai</i></p>
+			<p><i>evras</i></p>
+			<p><i>evra</i></p>
+			<p><i>evrâmes</i></p>
+			<p><i>evrâtes</i></p>
+			<p><i>evrèrent</i></p>
+		</simple-past>
+	</indicative>
+	<conditional>
+		<present>
+			<p><i>èvrerais</i></p>
+			<p><i>èvrerais</i></p>
+			<p><i>èvrerait</i></p>
+			<p><i>èvrerions</i></p>
+			<p><i>èvreriez</i></p>
+			<p><i>èvreraient</i></p>
+		</present>
+	</conditional>
+	<subjunctive>
+		<present>
+			<p><i>èvre</i></p>
+			<p><i>èvres</i></p>
+			<p><i>èvre</i></p>
+			<p><i>evrions</i></p>
+			<p><i>evriez</i></p>
+			<p><i>èvrent</i></p>
+		</present>
+		<imperfect>
+			<p><i>evrasse</i></p>
+			<p><i>evrasses</i></p>
+			<p><i>evrât</i></p>
+			<p><i>evrassions</i></p>
+			<p><i>evrassiez</i></p>
+			<p><i>evrassent</i></p>
+		</imperfect>
+	</subjunctive>
+	<imperative>
+		<imperative-present>
+			<p><i>èvre</i></p>
+			<p><i>evrons</i></p>
+			<p><i>evrez</i></p>
+		</imperative-present>
+	</imperative>
+	<participle>
+		<present-participle>
+			<p><i>evrant</i></p>
+		</present-participle>
+		<past-participle>
+			<p><i>evré</i></p>
+			<p><i>evrés</i></p>
+			<p><i>evrée</i></p>
+			<p><i>evrées</i></p>
+		</past-participle>
+	</participle>
+</template>
+
 <template name="c:éder">
 	<infinitive>
 		<infinitive-present>
@@ -2742,7 +2742,7 @@
 			<p><i>èpe</i></p>
 			<p><i>èpes</i></p>
 			<p><i>èpe</i></p>
-			<p><i>éprions</i></p>
+			<p><i>épions</i></p>
 			<p><i>épiez</i></p>
 			<p><i>èpent</i></p>
 		</present>
@@ -2830,7 +2830,7 @@
 			<p><i>èpe</i></p>
 			<p><i>èpes</i></p>
 			<p><i>èpe</i></p>
-			<p><i>eprions</i></p>
+			<p><i>epions</i></p>
 			<p><i>epiez</i></p>
 			<p><i>èpent</i></p>
 		</present>
@@ -2918,7 +2918,7 @@
 			<p><i>èse</i></p>
 			<p><i>èses</i></p>
 			<p><i>èse</i></p>
-			<p><i>ésrions</i></p>
+			<p><i>ésions</i></p>
 			<p><i>ésiez</i></p>
 			<p><i>èsent</i></p>
 		</present>
@@ -2976,11 +2976,11 @@
 		</imperfect>
 		<future>
 			<p><i>émerai</i><i>èmerai</i></p>
-			<p><i>émeras</i><i>èmerai</i></p>
-			<p><i>émera</i><i>èmerai</i></p>
-			<p><i>émerons</i><i>èmerai</i></p>
-			<p><i>émerez</i><i>èmerai</i></p>
-			<p><i>émeront</i><i>èmerai</i></p>
+			<p><i>émeras</i><i>èmeras</i></p>
+			<p><i>émera</i><i>èmera</i></p>
+			<p><i>émerons</i><i>èmerons</i></p>
+			<p><i>émerez</i><i>èmerez</i></p>
+			<p><i>émeront</i><i>èmeront</i></p>
 		</future>
 		<simple-past>
 			<p><i>émai</i></p>
@@ -2995,10 +2995,10 @@
 		<present>
 			<p><i>émerais</i><i>èmerais</i></p>
 			<p><i>émerais</i><i>èmerais</i></p>
-			<p><i>émerait</i><i>èmerais</i></p>
-			<p><i>émerions</i><i>èmerais</i></p>
-			<p><i>émeriez</i><i>èmerais</i></p>
-			<p><i>émeraient</i><i>èmerais</i></p>
+			<p><i>émerait</i><i>èmerait</i></p>
+			<p><i>émerions</i><i>èmerions</i></p>
+			<p><i>émeriez</i><i>èmeriez</i></p>
+			<p><i>émeraient</i><i>èmeraient</i></p>
 		</present>
 	</conditional>
 	<subjunctive>
@@ -3006,7 +3006,7 @@
 			<p><i>ème</i></p>
 			<p><i>èmes</i></p>
 			<p><i>ème</i></p>
-			<p><i>émrions</i></p>
+			<p><i>émions</i></p>
 			<p><i>émiez</i></p>
 			<p><i>èment</i></p>
 		</present>
@@ -7340,7 +7340,7 @@
 	</imperative>
 	<participle>
 		<present-participle>
-			<p><i>oyant</i></p>
+			<p><i>oyant</i><i>eyant</i></p>
 		</present-participle>
 		<past-participle>
 			<p><i>u</i></p>
@@ -9319,6 +9319,183 @@
 			<p><i>oîtront</i></p>
 		</future>
 		<simple-past>
+			<p><i>ûs</i></p>
+			<p><i>ûs</i></p>
+			<p><i>ût</i></p>
+			<p><i>ûmes</i></p>
+			<p><i>ûtes</i></p>
+			<p><i>ûrent</i></p>
+		</simple-past>
+	</indicative>
+	<conditional>
+		<present>
+			<p><i>oîtrais</i></p>
+			<p><i>oîtrais</i></p>
+			<p><i>oîtrait</i></p>
+			<p><i>oîtrions</i></p>
+			<p><i>oîtriez</i></p>
+			<p><i>oîtraient</i></p>
+		</present>
+	</conditional>
+	<subjunctive>
+		<present>
+			<p><i>oisse</i></p>
+			<p><i>oisses</i></p>
+			<p><i>oisse</i></p>
+			<p><i>oissions</i></p>
+			<p><i>oissiez</i></p>
+			<p><i>oissent</i></p>
+		</present>
+		<imperfect>
+			<p><i>ûsse</i></p>
+			<p><i>ûsses</i></p>
+			<p><i>ût</i></p>
+			<p><i>ûssions</i></p>
+			<p><i>ûssiez</i></p>
+			<p><i>ûssent</i></p>
+		</imperfect>
+	</subjunctive>
+	<imperative>
+		<imperative-present>
+			<p><i>ois</i></p>
+			<p><i>oissons</i></p>
+			<p><i>oissez</i></p>
+		</imperative-present>
+	</imperative>
+	<participle>
+		<present-participle>
+			<p><i>oissant</i></p>
+		</present-participle>
+		<past-participle>
+			<p><i>û</i></p>
+			<p><i>ûs</i></p>
+			<p><i>ûe</i></p>
+			<p><i>ûes</i></p>
+		</past-participle>
+	</participle>
+</template>
+
+<template name="recr:oître">
+	<infinitive>
+		<infinitive-present>
+			<p><i>oître</i></p>
+		</infinitive-present>
+	</infinitive>
+	<indicative>
+		<present>
+			<p><i>oîs</i></p>
+			<p><i>oîs</i></p>
+			<p><i>oît</i></p>
+			<p><i>oissons</i></p>
+			<p><i>oissez</i></p>
+			<p><i>oissent</i></p>
+		</present>
+		<imperfect>
+			<p><i>oissais</i></p>
+			<p><i>oissais</i></p>
+			<p><i>oissait</i></p>
+			<p><i>oissions</i></p>
+			<p><i>oissiez</i></p>
+			<p><i>oissaient</i></p>
+		</imperfect>
+		<future>
+			<p><i>oîtrai</i></p>
+			<p><i>oîtras</i></p>
+			<p><i>oîtra</i></p>
+			<p><i>oîtrons</i></p>
+			<p><i>oîtrez</i></p>
+			<p><i>oîtront</i></p>
+		</future>
+		<simple-past>
+			<p><i>us</i></p>
+			<p><i>us</i></p>
+			<p><i>ut</i></p>
+			<p><i>ûmes</i></p>
+			<p><i>ûtes</i></p>
+			<p><i>urent</i></p>
+		</simple-past>
+	</indicative>
+	<conditional>
+		<present>
+			<p><i>oîtrais</i></p>
+			<p><i>oîtrais</i></p>
+			<p><i>oîtrait</i></p>
+			<p><i>oîtrions</i></p>
+			<p><i>oîtriez</i></p>
+			<p><i>oîtraient</i></p>
+		</present>
+	</conditional>
+	<subjunctive>
+		<present>
+			<p><i>oisse</i></p>
+			<p><i>oisses</i></p>
+			<p><i>oisse</i></p>
+			<p><i>oissions</i></p>
+			<p><i>oissiez</i></p>
+			<p><i>oissent</i></p>
+		</present>
+		<imperfect>
+			<p><i>usse</i></p>
+			<p><i>usses</i></p>
+			<p><i>ût</i></p>
+			<p><i>ussions</i></p>
+			<p><i>ussiez</i></p>
+			<p><i>ussent</i></p>
+		</imperfect>
+	</subjunctive>
+	<imperative>
+		<imperative-present>
+			<p><i>ois</i></p>
+			<p><i>oissons</i></p>
+			<p><i>oissez</i></p>
+		</imperative-present>
+	</imperative>
+	<participle>
+		<present-participle>
+			<p><i>oissant</i></p>
+		</present-participle>
+		<past-participle>
+			<p><i>û</i></p>
+			<p><i>ûs</i></p>
+			<p><i>ûe</i></p>
+			<p><i>ûes</i></p>
+		</past-participle>
+	</participle>
+</template>
+
+
+<template name="accr:oître">
+	<infinitive>
+		<infinitive-present>
+			<p><i>oître</i></p>
+		</infinitive-present>
+	</infinitive>
+	<indicative>
+		<present>
+			<p><i>oîs</i></p>
+			<p><i>oîs</i></p>
+			<p><i>oît</i></p>
+			<p><i>oissons</i></p>
+			<p><i>oissez</i></p>
+			<p><i>oissent</i></p>
+		</present>
+		<imperfect>
+			<p><i>oissais</i></p>
+			<p><i>oissais</i></p>
+			<p><i>oissait</i></p>
+			<p><i>oissions</i></p>
+			<p><i>oissiez</i></p>
+			<p><i>oissaient</i></p>
+		</imperfect>
+		<future>
+			<p><i>oîtrai</i></p>
+			<p><i>oîtras</i></p>
+			<p><i>oîtra</i></p>
+			<p><i>oîtrons</i></p>
+			<p><i>oîtrez</i></p>
+			<p><i>oîtront</i></p>
+		</future>
+		<simple-past>
 			<p><i>us</i></p>
 			<p><i>us</i></p>
 			<p><i>ut</i></p>
@@ -9847,12 +10024,12 @@
 			<p><i>iront</i></p>
 		</future>
 		<simple-past>
-			<p><i>is</i></p>
-			<p><i>is</i></p>
-			<p><i>is</i></p>
-			<p><i>îmes</i></p>
-			<p><i>îtes</i></p>
-			<p><i>irent</i></p>
+			<p><i>is</i><i>isis</i></p>
+			<p><i>is</i><i>isis</i></p>
+			<p><i>it</i><i>isit</i></p>
+			<p><i>îmes</i><i>isîmes</i></p>
+			<p><i>îtes</i><i>isîtes</i></p>
+			<p><i>irent</i><i>isirent</i></p>
 		</simple-past>
 	</indicative>
 	<conditional>
@@ -9895,7 +10072,7 @@
 			<p><i>isant</i></p>
 		</present-participle>
 		<past-participle>
-			<p><i></i></p>
+			<p><i>i</i></p>
 			<p></p>
 			<p></p>
 			<p></p>
@@ -10504,6 +10681,94 @@
 			<p><i>is</i></p>
 			<p><i>isons</i></p>
 			<p><i>isez</i></p>
+		</imperative-present>
+	</imperative>
+	<participle>
+		<present-participle>
+			<p><i>isant</i></p>
+		</present-participle>
+		<past-participle>
+			<p><i>it</i></p>
+			<p><i>its</i></p>
+			<p><i>ite</i></p>
+			<p><i>ites</i></p>
+		</past-participle>
+	</participle>
+</template>
+
+<template name="préd:ire">
+	<infinitive>
+		<infinitive-present>
+			<p><i>ire</i></p>
+		</infinitive-present>
+	</infinitive>
+	<indicative>
+		<present>
+			<p><i>is</i></p>
+			<p><i>is</i></p>
+			<p><i>it</i></p>
+			<p><i>isons</i></p>
+			<p><i>ites</i><i>isez</i></p>
+			<p><i>isent</i></p>
+		</present>
+		<imperfect>
+			<p><i>isais</i></p>
+			<p><i>isais</i></p>
+			<p><i>isait</i></p>
+			<p><i>isions</i></p>
+			<p><i>isiez</i></p>
+			<p><i>isaient</i></p>
+		</imperfect>
+		<future>
+			<p><i>irai</i></p>
+			<p><i>iras</i></p>
+			<p><i>ira</i></p>
+			<p><i>irons</i></p>
+			<p><i>irez</i></p>
+			<p><i>iront</i></p>
+		</future>
+		<simple-past>
+			<p><i>is</i></p>
+			<p><i>is</i></p>
+			<p><i>it</i></p>
+			<p><i>îmes</i></p>
+			<p><i>îtes</i></p>
+			<p><i>irent</i></p>
+		</simple-past>
+	</indicative>
+	<conditional>
+		<present>
+			<p><i>irais</i></p>
+			<p><i>irais</i></p>
+			<p><i>irait</i></p>
+			<p><i>irions</i></p>
+			<p><i>iriez</i></p>
+			<p><i>iraient</i></p>
+		</present>
+	</conditional>
+	<subjunctive>
+		<present>
+			<p><i>ise</i></p>
+			<p><i>ises</i></p>
+			<p><i>ise</i></p>
+			<p><i>isions</i></p>
+			<p><i>isiez</i></p>
+			<p><i>isent</i></p>
+		</present>
+		<imperfect>
+			<p><i>isse</i></p>
+			<p><i>isses</i></p>
+			<p><i>ît</i></p>
+			<p><i>issions</i></p>
+			<p><i>issiez</i></p>
+			<p><i>issent</i></p>
+		</imperfect>
+	</subjunctive>
+	<imperative>
+		<imperative-present>
+			<p><i>is</i></p>
+			<p><i>isons</i></p>
+			<p><i>ites</i><i>isez</i></p>
 		</imperative-present>
 	</imperative>
 	<participle>
@@ -12715,6 +12980,94 @@
 			<p><i>s</i></p>
 			<p><i>se</i></p>
 			<p><i>ses</i></p>
+		</past-participle>
+	</participle>
+</template>
+
+<template name="brumass:er">
+	<infinitive>
+		<infinitive-present>
+			<p><i>er</i></p>
+		</infinitive-present>
+	</infinitive>
+	<indicative>
+		<present>
+			<p></p>
+			<p></p>
+			<p><i>e</i></p>
+			<p></p>
+			<p></p>
+			<p></p>
+		</present>
+		<imperfect>
+			<p></p>
+			<p></p>
+			<p><i>ait</i></p>
+			<p></p>
+			<p></p>
+			<p></p>
+		</imperfect>
+		<future>
+			<p></p>
+			<p></p>
+			<p><i>era</i></p>
+			<p></p>
+			<p></p>
+			<p></p>
+		</future>
+		<simple-past>
+			<p></p>
+			<p></p>
+			<p><i>a</i></p>
+			<p></p>
+			<p></p>
+			<p></p>
+		</simple-past>
+	</indicative>
+	<conditional>
+		<present>
+			<p></p>
+			<p></p>
+			<p><i>erait</i></p>
+			<p></p>
+			<p></p>
+			<p></p>
+		</present>
+	</conditional>
+	<subjunctive>
+		<present>
+			<p></p>
+			<p></p>
+			<p><i>e</i></p>
+			<p></p>
+			<p></p>
+			<p></p>
+		</present>
+		<imperfect>
+			<p></p>
+			<p></p>
+			<p><i>ât</i></p>
+			<p></p>
+			<p></p>
+			<p></p>
+		</imperfect>
+	</subjunctive>
+	<imperative>
+		<imperative-present>
+			<p></p>
+			<p></p>
+			<p></p>
+		</imperative-present>
+	</imperative>
+	<participle>
+		<present-participle>
+			<p><i>ant</i></p>
+		</present-participle>
+		<past-participle>
+			<p><i>é</i></p>
+			<p></p>
+			<p></p>
+			<p></p>
 		</past-participle>
 	</participle>
 </template>

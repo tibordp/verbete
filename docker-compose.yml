@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_RANDOM_ROOT_PASSWORD: 1
+      MYSQL_DATABASE: verbete
+      MYSQL_USER: verbete
+      MYSQL_PASSWORD: verbete
+  web:
+    build: .
+    environment:
+      MYSQL_SERVER: db
+      MYSQL_PORT: 3306
+      MYSQL_DATABASE: verbete
+      MYSQL_USERNAME: verbete
+      MYSQL_PASSWORD: verbete    
+    container_name: php_web
+    depends_on:
+       - db
+    ports:
+      - "8100:80"
+    stdin_open: true
+    tty: true
