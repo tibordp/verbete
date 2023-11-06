@@ -5,7 +5,7 @@ require_once './include/lists.inc.php';
 $request_verb = trim($_REQUEST["verbe"]);
 
 if (empty($request_verb)) {
-    header('Location: //www.ojdip.net/verbete/');
+    header('Location: //verbete.ojdip.net');
     die();
 }
 
@@ -128,13 +128,13 @@ function output_table(
         <meta name="author" content="">
         <link rel="shortcut icon" href="./favicon.png">
 
-        <meta property="og:url" content="http://www.ojdip.net/verbete/conjugaison.php?verbe=<?php echo urlencode(
+        <meta property="og:url" content="https://verbete.ojdip.net/conjugaison.php?verbe=<?php echo urlencode(
             $verb
         ); ?>"/>
         <meta property="og:title" content="<?php echo htmlspecialchars(
             $verb
         ); ?> - Verbête - Le conjugeur de verbes"/>
-        <meta property="og:image" content="http://www.ojdip.net/verbete/favicon.png"/>
+        <meta property="og:image" content="https://verbete.ojdip.net/favicon.png"/>
         <meta property="og:description" content="La conjugaison du verbe <?php echo htmlspecialchars(
             $verb
         ); ?>"/>
@@ -145,7 +145,7 @@ function output_table(
 
         <!-- Bootstrap core CSS -->
         <link href="./css/bootstrap.min.css" rel="stylesheet">
-        <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 
         <!-- Custom styles for this template -->
         <link href="./css/site.css" rel="stylesheet">
@@ -171,7 +171,7 @@ function output_table(
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#"><span class='text-logofont'>Verbête</span></a>
+                    <a class="navbar-brand" href="index.php#"><span class='text-logofont'>Verbête</span></a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
@@ -195,7 +195,7 @@ function output_table(
                             <span class="input-group-btn">
                                 <button type="submit" class="btn btn-default">Conjuger</button>
                             </span>
-                        </div>                 
+                        </div>
                     </form>
                 </div>
             </div>
@@ -208,7 +208,7 @@ function output_table(
 
                 <?php if ($state == States::AD_HOC) { ?>
                     <div class="alert alert-warning">
-                        Le verbe <em><?php echo $verb; ?></em> n'a pas été trouvé dans la base de données. 
+                        Le verbe <em><?php echo $verb; ?></em> n'a pas été trouvé dans la base de données.
                         Ainsi, la conjugaison a été faite selon le modèle de verbe <em><?php echo $model; ?></em>.
                     </div>
                 <?php } ?>
@@ -226,7 +226,7 @@ function output_table(
                     ) {
                         echo ' active';
                     } ?>">Forme reflexive</button>
-                </div>   
+                </div>
 
                 <h3>Indicatif</h3>
 
@@ -245,12 +245,12 @@ function output_table(
                         Tense::PASSE_SIMPLE,
                         "Passé simple",
                         'panel-info'
-                    ); ?>     
+                    ); ?>
                     <?php output_table(
                         Tense::FUTUR_ANTERIEUR,
                         "Futur antérieur",
                         'panel-info'
-                    ); ?> 
+                    ); ?>
                 </div>
 
                 <div class="row">
@@ -277,7 +277,7 @@ function output_table(
                 </div>
 
                 <div class="row">
-                    <div class="col-md-6">   
+                    <div class="col-md-6">
                         <h3>Conditionel</h3>
                         <div class="row">
                             <?php output_table(
@@ -285,13 +285,13 @@ function output_table(
                                 "Conditionel présent",
                                 'panel-success',
                                 6
-                            ); ?> 
+                            ); ?>
                             <?php output_table(
                                 Tense::CONDITIONEL_PASSE,
                                 "Conditionel passé",
                                 'panel-success',
                                 6
-                            ); ?> 
+                            ); ?>
                         </div>
 
                     </div>
@@ -304,7 +304,7 @@ function output_table(
                                 "Passé recent",
                                 'panel-danger',
                                 6
-                            ); ?>     
+                            ); ?>
                             <?php output_table(
                                 Tense::PASSE_RECENT,
                                 "Futur proche",
@@ -331,13 +331,13 @@ function output_table(
                         Tense::SUBJONCTIF_PQP,
                         "Subjonctif plus-que-parfait",
                         'panel-warning'
-                    ); ?>     
+                    ); ?>
                     <?php output_table(
                         Tense::SUBJONCTIF_IMPARFAIT,
                         "Subjonctif imparfait",
                         'panel-warning'
-                    ); ?>    
-                </div>            
+                    ); ?>
+                </div>
 
                 <hr>
 

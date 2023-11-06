@@ -1,8 +1,8 @@
 ## Verbête
 
-Verbête est une application Web qui vous permet de voir les conjugaisons des verbes français d'une manière très facile. 
+Verbête est une application Web qui vous permet de voir les conjugaisons des verbes français d'une manière très facile.
 
-La basse de données comporte plus de 7000 verbes differents et leurs conjugaisons en tous les temps principaux (present, futur simple, passe simple, conditionel, subjonctif, subjonctif imparfait et biensûr les temps composés et temps périphrastiques qui en sont dérivés).               
+La basse de données comporte plus de 7000 verbes differents et leurs conjugaisons en tous les temps principaux (present, futur simple, passe simple, conditionel, subjonctif, subjonctif imparfait et biensûr les temps composés et temps périphrastiques qui en sont dérivés).
 
 ##  License
 
